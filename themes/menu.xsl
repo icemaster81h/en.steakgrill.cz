@@ -40,7 +40,7 @@
     </xsl:copy>
   </xsl:template>
   <!-- all parts on beverages and wine_list -->
-  <xsl:template match="div[contains(@class, 'part')]/div[ancestor::body[@data-link='/beverages' or @data-link='/wine_list']]">
+  <xsl:template match="div[contains(@class, 'part')]/div[ancestor::body[@data-link='/beverages' or @data-link='/wine_list'] or ancestor::body[@data-link='/napojovy_listek' or @data-link='/vinny_listek']]">
     <xsl:copy>
       <xsl:attribute name="class">content-card</xsl:attribute>
       <xsl:apply-templates select="node()|@*"/>
@@ -49,13 +49,13 @@
   
   <!-- GROUP -->
   <!-- daily_offer, weekend_events -->
-  <xsl:template match="div[contains(@class, 'daily_offer')][ancestor::body[@data-link='/menu']]">
+  <xsl:template match="div[contains(@class, 'daily_offer')][ancestor::body[@data-link='/menu'] or ancestor::body[@data-link='/nabidka']]">
     <xsl:text disable-output-escaping="yes">&lt;div class="part content-group daily_any_weekend"&gt;&lt;div&gt;</xsl:text>
     <xsl:copy>
       <xsl:apply-templates select="node()|@*"/>
     </xsl:copy>
   </xsl:template>
-  <xsl:template match="div[contains(@class, 'weekend_events')][ancestor::body[@data-link='/menu']]">
+  <xsl:template match="div[contains(@class, 'weekend_events')][ancestor::body[@data-link='/menu'] or ancestor::body[@data-link='/nabidka']]">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*"/>
     </xsl:copy>
@@ -104,6 +104,16 @@
         <li><a class="nowarning button button-img" href="/regular_menu"><span class="fas fa-3x fa-clipboard-list">i</span>Regular Menu</a></li>
         <li><a class="nowarning button button-img" href="/beverages"><span class="fas fa-3x fa-mug-hot">i</span>Beverages</a></li>
         <li><a class="nowarning button button-img" href="/wine_list"><span class="fas fa-3x fa-wine-glass-alt">i</span>Wine List</a></li>
+      </ul>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="div[@class='contenttoc section'][ancestor::body[@data-link='/stala_nabidka'] or ancestor::body[@data-link='/vinny_listek'] or ancestor::body[@data-link='/napojovy_listek']]">
+    <xsl:copy>
+      <xsl:apply-templates select="node()|@*"/>
+      <ul class="button-list">
+        <li><a class="nowarning button button-img" href="/stala_nabidka"><span class="fas fa-3x fa-clipboard-list">i</span>Stálá nabídka jídel</a></li>
+        <li><a class="nowarning button button-img" href="/napojovy_listek"><span class="fas fa-3x fa-wine-glass-alt">i</span>Nápojový lístek</a></li>
+        <li><a class="nowarning button button-img" href="/vinny_listek"><span class="fas fa-3x fa-mug-hot">i</span>Vinný lístek</a></li>
       </ul>
     </xsl:copy>
   </xsl:template>
