@@ -196,7 +196,7 @@ CZK 179</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2"/>
   <set type="text" for="vikendova-akce" pattern="Weekend special(.+)?, (January|February|March|April|May|June|July|August|September|October|November|December) \d?\d–\d?\d, 20\d\d" placeholder="Weekend special including Friday evening, November 2–4, 2018">Special, from–to</set>
   <var var="cms-server" id="vikendova-akce" required="required">Weekend special including Friday evening, November 2–4, 2018</var>
-  <var var="cms-server" id="akce-popis">On weekends, we mostly offer dishes made in an oven, grilled and broiled over wood.</var>
+  <var var="cms-server" id="akce-popis">On weekends, we mostly offer dishes from opened kitchen, and during summer season grilling and broiling in outdoor oven.</var>
   <set type="textarea" for="akce-predkrm\d+" pattern="\s*[A-Z]\D+(, \d+ g)?\n\s*[A-Z].*\.\nCZK \d+" placeholder="Homemade sirloin steak tartare, 50 g&#10;Pre-mixed, garlic toast.&#10;CZK 129">Starters</set>
   <var var="cms-server" fn="formatjidlo" id="akce-predkrm1" required="required">Homemade sirloin steak tartare, 50 g&#13;
 Pre-mixed, garlic toast.&#13;
