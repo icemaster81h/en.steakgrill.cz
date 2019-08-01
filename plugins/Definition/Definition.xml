@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+  <var 
+      id="sous-vide" 
+      class="definition"
+      title="in vacuum" 
+      href="https://cs.wikipedia.org/wiki/Sous-vide"
+      data-definition-href-title="The term sous-vide in Wikipedia"
+      data-definition-desc="Sous-vide (from French, translated as “in vacuum”) is a cooking method of food preparation in airtight plastic wrap in water bath with controlled temperature.">n/a</var>
+  <var 
+      id="docg" 
+      class="definition"
+      title="Denominazione di Origine Controllata e Garantita"
+      data-definition-desc="Označení DOCG (Denominazione di Origine Controllata e Garantita) identification has applied since 1980 for the top quality level in Italy. All processes are under strict control, including the origin of the vine, yield per hectare and altitude of the vineyard.">n/a</var>
+  <var 
+      id="doc" 
+      class="definition"
+      title="Denominazione di Origine Controllata"
+      data-definition-desc="The DOC (Denominazione di Origine Controllata)  identification is the second highest level of evaluation of Italian wines. Wines identified with this abbreviation must comply with the locality registered for growing of the particular variety and the conditions of maximum yield, the length of the vine ripening, must be met.">n/a</var>
+  <var 
+      id="nbsp" 
+      class="definition"
+      title="Non-breaking space"
+      href="https://cs.wikipedia.org/wiki/Nezlomiteln%C3%A1_mezera"
+      data-definition-href-title="Non-breaking space in Wikipedia"
+      data-definition-desc="Non-breaking (or indivisible) space is a special typographic character, one of the “white” characters. The character works as a standard space except that in the case of automatic line break the programmes for text processing will not break the line after this space. Therefore the character is used where division of two words (numbers, symbols) between two lines is undesirable.">n/a</var>
+  <var 
+      id="line break" 
+      class="definition"
+      title="Inappropriate terms at line end"
+      href="http://prirucka.ujc.cas.cz/?id=880"
+      data-definition-href-title="Line break and inappropriate terms at line end "
+      data-definition-desc="Text processing should avoid line break at certain places for the text to run smoothly and continually and its clear structure and comfortable reading to be assured.">n/a</var>
+  <var 
+      id="igp" 
+      class="definition"
+      title="Indication Géographique Protégée"
+      href="http://www.terroir-francie.cz/klasifikace.html"
+      data-definition-desc="Quality wines representing a wine region and connected with characteristics of one or more vine varieties.">n/a</var>
+  <var 
+      id="booking1" 
+      class="definition"
+      title="Bookings 15-30"
+      data-definition-desc='Bookings for 15 to 30 people are managed by Tomáš Lisec at &lt;a href="tel:+420607515901"&gt;+420 607 515 901&lt;/a&gt; or at &lt;a href="mailto:lisec@steakgrill.cz"&gt;lisec@steakgrill.cz&lt;/a&gt;.'>n/a</var>
+  <var 
+      id="booking2" 
+      class="definition"
+      title="Bookings 30+"
+      data-definition-desc='Bookings above 30 people are managed by Jaroslav Honzajk at &lt;a href="tel:+420777727362"&gt;+420 777 727 362&lt;/a&gt; or at &lt;a href="mailto:honzajk@steakgrill.cz"&gt;honzajk@steakgrill.cz&lt;/a&gt;.'>n/a</var></Definition>
