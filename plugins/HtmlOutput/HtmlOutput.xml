@@ -14,7 +14,6 @@
 <!--   <jsFile append="head">themes/gtm.js</jsFile> -->
   
   <jsFile append="body" if-xpath="//h1[@id='nabidka' or @id='menu']">themes/printlistek.js</jsFile>
-  <jsFile >themes/terminable.js</jsFile>
   <jsFile append="body">themes/alert.js</jsFile>
   
   <jsFile append="body">themes/fa.js</jsFile>
