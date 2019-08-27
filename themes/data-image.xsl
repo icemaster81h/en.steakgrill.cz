@@ -3,7 +3,7 @@
 
   <xsl:template match="body">
     <xsl:copy>
-      <xsl:apply-templates select="node()|@*|//h1/@*[contains('data-', name())]"/>
+      <xsl:apply-templates select="node()|@*|//h1/@*"/>
     </xsl:copy>
   </xsl:template>
 
