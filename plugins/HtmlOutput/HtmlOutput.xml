@@ -10,6 +10,7 @@
   <xslt>themes/menu.xsl</xslt>
   <xslt>themes/visibility.xsl</xslt>
   <xslt>themes/special.xsl</xslt>
+  <xslt>themes/data-image.xsl</xslt>
 <!--   <jsFile append="head">themes/webfont.js</jsFile> -->
 <!--   <jsFile append="head">themes/fontloader.js</jsFile> -->
 <!--   <jsFile append="head">themes/gtm.js</jsFile> -->
