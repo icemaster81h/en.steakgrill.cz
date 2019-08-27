@@ -3,7 +3,7 @@
 
   <xsl:template match="body">
     <body>
-      <xsl:copy-of select="node()|@*|//h1/@*[name() = 'data-image']"/>
+      <xsl:copy-of select="node()|@*"/>
     </body>
   </xsl:template>
 
