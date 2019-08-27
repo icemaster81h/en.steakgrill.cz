@@ -2,10 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
   <xsl:template match="body">
-    <xsl:copy-of select="//h1/@*[name() = 'data-image']"/>
-    <xsl:copy>
-      <xsl:apply-templates select="node()|@*"/>
-    </xsl:copy>
+    <body>
+      <xsl:copy-of select="node()|@*|//h1/@*[name() = 'data-image']"/>
+    </body>
   </xsl:template>
 
   <xsl:template match="node()|@*">
