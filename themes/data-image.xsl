@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
   <xsl:template match="body">
-    <xsl:copy-of select="//h1/@*[name = 'data-image']"/>
+    <xsl:copy-of select="//dl/@*[name = 'class']"/>
     <xsl:copy>
       <xsl:apply-templates select="node()|@*"/>
     </xsl:copy>
