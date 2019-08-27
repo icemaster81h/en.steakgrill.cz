@@ -2,9 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
   <xsl:template match="body">
-    <xsl:copy-of select="@*|h1/@data-*" />
+    <xsl:copy-of select="h1/@*[contains('data-', name())]" />
     <xsl:copy>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates select="node()|@*"/>
     </xsl:copy>
   </xsl:template>
 
