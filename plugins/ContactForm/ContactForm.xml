@@ -44,7 +44,7 @@ $inputvar-service_plain
       <dd><textarea id="msg" required="required" var="inputvar-rezervace@placeholder"></textarea></dd>
       <dt class="noprint">Form submission</dt>
       <dd class="noprint"><label><input type="checkbox" id="sendcopy"/> Send a copy of this message to specified email</label></dd>
-      <dd class="noprint"><input type="submit" id="submit" class="button" value="Send"/></dd>
+      <dd class="noprint"><input type="submit" id="submit" class="button send" value="Send"/></dd>
     </dl>
   </form>
 
