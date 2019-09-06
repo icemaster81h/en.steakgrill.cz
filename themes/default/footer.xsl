@@ -98,7 +98,6 @@
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:if test="$inputvar-feedback-en">
-                  x
                     <xsl:value-of disable-output-escaping="yes" select="$inputvar-feedback-en"/>
                   </xsl:if>
                 </xsl:otherwise>
