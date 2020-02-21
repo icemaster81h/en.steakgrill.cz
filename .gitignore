@@ -1,4 +1,5 @@
-*.[0-9]*
-.inotify
-files/
-.watch_user
+*
+!.gitignore
+!napojovy_listek.html
+!stala_nabidka.html
+!vinny_listek.html
